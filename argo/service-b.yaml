@@ -9,12 +9,12 @@ metadata:
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: 0.1-develop
     argocd-image-updater.argoproj.io/write-back-target: kustomization
-    argocd-image-updater.argoproj.io/git-commit-user: Argo Image Updater
-    argocd-image-updater.argoproj.io/git-commit-email: sunilojha525@gmail.com
+    # argocd-image-updater.argoproj.io/git-commit-user: Argo Image Updater
+    # argocd-image-updater.argoproj.io/git-commit-email: sunilojha525@gmail.com
 spec:
   project: default
   source:
-    repoURL: "https://github.com/DeepEnc/argocd-microservice"
+    repoURL: "https://github.com/sapkotapratik007/argocd-microservice-demo"
     targetRevision: "0.1-develop"
     path: service-b/k8s
   destination:
